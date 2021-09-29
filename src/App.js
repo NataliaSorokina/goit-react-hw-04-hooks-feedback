@@ -43,7 +43,7 @@ export default function CreateApp() {
   return (
     <>
       <Section title="Please leave feedback">
-        {<FeedbackOptions options={options} onLeaveFeedback={handleFeedback} />}
+        <FeedbackOptions options={options} onLeaveFeedback={handleFeedback} />
       </Section>
 
       <Section title="Statistics">
